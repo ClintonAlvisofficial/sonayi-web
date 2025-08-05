@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sonayi Safari Lodge & Campsite</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<header>
+    <div class="logo">
+        <img src="images/logo.png" alt="Sonayi Safari Lodge & Campsite Logo" class="logo-img">
+        <span>Sonayi Safari Lodge & Campsite</span>
+    </div>
+    <nav id="nav-links">
+        <a href="index.html" class="active">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="rooms.html">Rooms/Campsite</a>
+        <a href="activities.html">Activities</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+</header>
+
+<!-- HERO SECTION -->
+<section class="hero">
+    <div class="hero-slider">
+        <div class="hero-slide active">
+            <img src="images/hero1.jpg" alt="Lake Eyasi Sunrise">
+            <div class="hero-content">
+                <h1>Experience the Magic of Lake Eyasi</h1>
+                <p>Stay with us and immerse yourself in the culture of the Hadzabe and Datoga tribes.</p>
+                <a href="contact.html" class="btn">Book Your Stay</a>
+            </div>
+        </div>
+        <div class="hero-slide">
+            <img src="images/hero2.jpg" alt="Safari Adventure">
+            <div class="hero-content">
+                <h1>Safari Adventure Awaits</h1>
+                <p>Explore wildlife and breathtaking landscapes with our guided tours.</p>
+                <a href="activities.html" class="btn">See Activities</a>
+            </div>
+        </div>
+        <div class="hero-slide">
+            <img src="images/hero3.jpg" alt="Luxury Tent">
+            <div class="hero-content">
+                <h1>Relax in Comfort</h1>
+                <p>Enjoy our luxury tents and cozy rooms under the African sky.</p>
+                <a href="rooms.html" class="btn">View Rooms</a>
+            </div>
+        </div>
+        <div class="hero-slide">
+            <img src="images/hero4.jpg" alt="Cultural Experience">
+            <div class="hero-content">
+                <h1>Cultural Experiences</h1>
+                <p>Meet the Hadzabe and Datoga tribes and learn their traditions.</p>
+                <a href="about.html" class="btn">Learn More</a>
+            </div>
+        </div>
+        <div class="hero-slide">
+            <img src="images/hero5.jpg" alt="Campfire Nights">
+            <div class="hero-content">
+                <h1>Coffee Farm Visit</h1>
+                <p>Experience the Aroma-Discover our Coffee farm at Sonayi Campsite-Manyara</p>
+                <a href="contact.html" class="btn">Plan Your Stay</a>
+            </div>
+        </div>
+        <button class="hero-arrow left" aria-label="Previous">&#10094;</button>
+        <button class="hero-arrow right" aria-label="Next">&#10095;</button>
+    </div>
+</section>
+<!-- ABOUT PREVIEW -->
+<section class="home-about">
+    <h2>Welcome to Sonayi Safari Lodge & Campsite</h2>
+    <p>
+        Located near the scenic Lake Eyasi in Tanzania, Sonayi Safari Lodge & Campsite offers a unique blend 
+        of cultural experiences and safari adventures. From guided tours with the Hadzabe tribe to comfortable 
+        rooms and camping under the African sky — we ensure your stay is unforgettable.
+    </p>
+    <a href="about.html" class="btn">Learn More</a>
+</section>
+
+<!-- ROOMS PREVIEW -->
+<section class="home-rooms">
+    <h2>Our Rooms & Campsite</h2>
+    <div class="rooms-slider-container">
+        <button class="rooms-arrow left" aria-label="Previous">&#10094;</button>
+        <div class="rooms-slider">
+            <div class="room-card">
+                <img src="images/rooms/lodge-single.jpg" alt="Single Room">
+                <h3>Single Room</h3>
+                <p>From $120/night – Full Board, comfortable, scenic views.</p>
+            </div>
+            <div class="room-card">
+                <img src="images/rooms/lodge-double.jpg" alt="Double Room">
+                <h3>Double Room</h3>
+                <p>From $175/night – Full Board, spacious, lodge amenities.</p>
+            </div>
+            <div class="room-card">
+                <img src="images/rooms/lodge-triple.jpg" alt="Triple Room">
+                <h3>Triple Room</h3>
+                <p>From $285/night – Full Board, family-friendly, all meals.</p>
+            </div>
+            <div class="room-card">
+                <img src="images/rooms/camp-ground.jpg" alt="Campground">
+                <h3>Campground</h3>
+                <p>$15/night – Bring your own tent, kitchen, pool, coffee farm.</p>
+            </div>
+            <div class="room-card">
+                <img src="images/rooms/camp-tent-single.jpg" alt="Furnished Tent Single">
+                <h3>Furnished Tent – Single</h3>
+                <p>$50/night – Bed, bedding, kitchen, pool, coffee farm.</p>
+            </div>
+            <div class="room-card">
+                <img src="images/rooms/camp-tent-double.jpg" alt="Furnished Tent Double">
+                <h3>Furnished Tent – Double</h3>
+                <p>$66/night – Bed, bedding, kitchen, pool, coffee farm.</p>
+            </div>
+            <div class="room-card">
+                <img src="images/rooms/camp-tent-triple.jpg" alt="Furnished Tent Triple">
+                <h3>Furnished Tent – Triple</h3>
+                <p>$81/night – Bed, bedding, kitchen, pool, coffee farm.</p>
+            </div>
+            <div class="room-card">
+                <img src="images/rooms/swimming-pool.jpg" alt="Swimming Pool">
+                <h3>Swimming Pool</h3>
+                <p>Relax and refresh in our beautiful pool, open to all guests.</p>
+            </div>
+        </div>
+        <button class="rooms-arrow right" aria-label="Next">&#10095;</button>
+    </div>
+    <a href="rooms.html" class="btn">View All Rooms</a>
+</section>
+
+<!-- ACTIVITIES PREVIEW -->
+<section class="home-activities">
+    <h2>Activities & Adventures</h2>
+    <div class="activity-grid">
+        <div class="activity-card">
+            <img src="images/activity1.jpg" alt="Hadzabe Cultural Tour">
+            <h3>Hadzabe Cultural Tour</h3>
+            <p>Spend the day with Tanzania's ancient hunter-gatherer tribe.</p>
+        </div>
+        <div class="activity-card">
+            <img src="images/activity2.jpg" alt="Lake Eyasi Safari">
+            <h3>Lake Eyasi Safari</h3>
+            <p>Explore wildlife and the breathtaking Lake Eyasi landscapes.</p>
+        </div>
+    </div>
+    <a href="activities.html" class="btn">Explore More</a>
+</section>
+
+<!-- GALLERY PREVIEW -->
+<section class="home-gallery">
+    <h2>Gallery</h2>
+    <div class="gallery-grid">
+        <img src="images/gallery1.jpg" alt="Gallery Image 1">
+        <img src="images/gallery2.jpg" alt="Gallery Image 2">
+        <img src="images/gallery3.jpg" alt="Gallery Image 3">
+    </div>
+    <a href="gallery.html" class="btn">View Full Gallery</a>
+</section>
+
+<!-- CONTACT PREVIEW -->
+    <div class="preview-card contact-card">
+        <div>
+            <h2>Plan Your Stay</h2>
+            <p>📍 Lake Eyasi, Tanzania</p>
+            <p>📞 <a href="tel:+255742446107">+255 742 446 107</a></p>
+            <p>📧 <a href="mailto:sonayilodge@gmail.com">sonayilodge@gmail.com</a></p>
+            <p>Business Hours: Mon-Sun, 7:00 AM - 10:00 PM</p>
+            <a href="contact.html" class="btn">Contact Us</a>
+        </div>
+    </div>
+</section>
+<!-- FOOTER -->
+<footer>
+    <div class="footer-content">
+        <div class="footer-info">
+            <h3>Sonayi Safari Lodge & Campsite</h3>
+            <p>Lake Eyasi, Tanzania</p>
+            <p>📞 <a href="tel:+255742446107">+255 742 446 107</a></p>
+            <p>📧 <a href="mailto:sonayilodge@gmail.com">sonayilodge@gmail.com</a></p>
+        </div>
+        <div class="footer-social">
+            <h3>Follow Us</h3>
+            <a href="https://facebook.com" target="https://www.facebook.com/share/14EqssxQYhJ/">Facebook</a>
+            <a href="https://instagram.com" target="https://www.instagram.com/sonayisafarilodge?igsh=MW43MXBpeG14YnZmZQ==">Instagram</a>
+            <a href="https://threads.net" target="https://www.threads.com/@sonayisafarilodge">Threads</a>
+            <a href="https://tiktok.com" target="https://www.tiktok.com/@sonayisafarilodgeandcamp?_r=1&_d=eeic3f33g8c0ma&sec_uid=MS4wLjABAAAAYFHGRUWd4UoPkNcRzkE_0MD7tw6f76iU0-tGYC_vHh74g8mHvJN2QxgnV02jpsR7&share_author_id=7402154084936041478&sharer_language=en&source=h5_m&u_code=efhhd2icfcle2i&timestamp=1754316087&user_id=7402154084936041478&sec_user_id=MS4wLjABAAAAYFHGRUWd4UoPkNcRzkE_0MD7tw6f76iU0-tGYC_vHh74g8mHvJN2QxgnV02jpsR7&item_author_type=1&utm_source=copy&utm_campaign=client_share&utm_medium=android&share_iid=7532779432752088838&share_link_id=0326311c-a081-47e6-8406-9c46bb70d011&share_app_id=1233&ugbiz_name=ACCOUNT&ug_btm=b8727%2Cb7360&social_share_type=5&enable_checksum=1">TikTok</a>
+        </div>
+        <div class="footer-links">
+            <h3>Quick Links</h3>
+            <a href="about.html">About Us</a>
+            <a href="rooms.html">Rooms</a>
+            <a href="activities.html">Activities</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </div>
+    <p class="footer-bottom">&copy; 2025 Sonayi Safari Lodge & Campsite. All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

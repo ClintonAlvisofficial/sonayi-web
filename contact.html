@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact & Booking - Sonayi Safari Lodge</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">Sonayi Safari Lodge & Campsite</div>
+    <nav id="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="rooms.html">Rooms/Campsite</a>
+        <a href="activities.html">Activities</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html" class="active">Contact</a>
+    </nav>
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+</header>
+
+<section>
+    <h2>Book Your Stay</h2>
+<form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" class="booking-form">
+    <div class="form-row">
+        <input type="text" name="Name" placeholder="Full Name" required>
+        <input type="email" name="Email" placeholder="Email Address" required>
+    </div>
+    <div class="form-row">
+        <input type="tel" name="Phone" placeholder="Phone Number" required>
+        <select name="Room Type" required>
+            <option value="">Select Room Type</option>
+            <option value="Single Room">Single Room</option>
+            <option value="Double Room">Double Room</option>
+            <option value="Triple Room">Triple Room</option>
+            <option value="Camp-Tent-Single">Camp-Tent-Single</option>
+            <option value="Camp-Tent-Double">Camp-Tent-Double</option>
+            <option value="Camp-Tent-Triple">Camp-Tent-Triple</option>
+        </select>
+    </div>
+    <div class="form-row">
+        <input type="date" name="Check-in Date" required>
+        <input type="date" name="Check-out Date" required>
+        <input type="number" name="Guests" placeholder="Number of Guests" min="1" required>
+    </div>
+    <textarea name="Special Requests" placeholder="Special Requests (Diet, Safari, etc.)" rows="3"></textarea>
+    <button type="submit">Submit Booking</button>
+</form>
+</section>
+
+<section class="contact-card">
+    <div class="card-content">
+        <img src="images/logo.png" alt="Sonayi Safari Lodge & Campsite Logo" class="card-logo">
+        <h2>Sonayi Safari Lodge & Campsite</h2>
+        <p>📍 Lake Eyasi, Tanzania</p>
+        <p>📞 <a href="tel:+255742446107">+255 742 446 107</a></p>
+        <p>📞 <a href="tel:+255763587874">+255 763 587 874</a></p>
+        <p>✉ <a href="mailto:sonayilodge@gmail.com">sonayilodge@gmail.com</a></p>
+        <a href="contact.html" class="card-btn">Book Your Stay</a>
+    </div>
+</section>
+<!-- LOCATION SECTION -->
+<section class="home-location">
+    <h2>Our Locations</h2>
+    <div class="location-grid">
+        <div class="location-card">
+            <h3>Sonayi Safari Lodge – Eyasi</h3>
+            <p>Lake Eyasi, Karatu, Tanzania</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5138.714085411205!2d35.40133357601277!3d-3.500640542058102!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x18344f6d43bd6857%3A0x8ce0b9eb3d58eeb0!2sSONAYI%20SAFARI%20LODGE-EYASI%20%26%20CAMPSITE-MANYARA!5e1!3m2!1sen!2stz!4v1754323380901!5m2!1sen!2stz"
+                width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="location-card">
+            <h3>Sonayi Campsite – Manyara</h3>
+            <p>Manyara, Tanzania</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5139.433510266695!2d35.82621147601162!3d-3.3669656414425044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1834217e07b96f07%3A0x733255174241a37!2sSONAYI%20MANYARA%20CAMPSITE!5e1!3m2!1sen!2stz!4v1754323657528!5m2!1sen!2stz"
+                width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="footer-content">
+        <div class="footer-info">
+            <h3>Sonayi Safari Lodge & Campsite</h3>
+            <p>Lake Eyasi, Tanzania</p>
+            <p>📞 <a href="tel:+255742446107">+255 742 446 107</a></p>
+            <p>📧 <a href="mailto:sonayilodge@gmail.com">sonayilodge@gmail.com</a></p>
+        </div>
+        <div class="footer-social">
+            <h3>Follow Us</h3>
+            <a href="https://facebook.com" target="https://www.facebook.com/share/14EqssxQYhJ/">Facebook</a>
+            <a href="https://instagram.com" target="https://www.instagram.com/sonayisafarilodge?igsh=MW43MXBpeG14YnZmZQ==">Instagram</a>
+            <a href="https://threads.net" target="https://www.threads.com/@sonayisafarilodge">Threads</a>
+            <a href="https://tiktok.com" target="https://www.tiktok.com/@sonayisafarilodgeandcamp?_r=1&_d=eeic3f33g8c0ma&sec_uid=MS4wLjABAAAAYFHGRUWd4UoPkNcRzkE_0MD7tw6f76iU0-tGYC_vHh74g8mHvJN2QxgnV02jpsR7&share_author_id=7402154084936041478&sharer_language=en&source=h5_m&u_code=efhhd2icfcle2i&timestamp=1754316087&user_id=7402154084936041478&sec_user_id=MS4wLjABAAAAYFHGRUWd4UoPkNcRzkE_0MD7tw6f76iU0-tGYC_vHh74g8mHvJN2QxgnV02jpsR7&item_author_type=1&utm_source=copy&utm_campaign=client_share&utm_medium=android&share_iid=7532779432752088838&share_link_id=0326311c-a081-47e6-8406-9c46bb70d011&share_app_id=1233&ugbiz_name=ACCOUNT&ug_btm=b8727%2Cb7360&social_share_type=5&enable_checksum=1">TikTok</a>
+        </div>
+        <div class="footer-links">
+            <h3>Quick Links</h3>
+            <a href="about.html">About Us</a>
+            <a href="rooms.html">Rooms</a>
+            <a href="activities.html">Activities</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </div>
+    <p class="footer-bottom">&copy; 2025 Sonayi Safari Lodge & Campsite. All rights reserved.</p>
+</footer>
+</body>
+</html>
